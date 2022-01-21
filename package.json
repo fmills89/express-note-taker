@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app to take down notes and save them",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmills89/express-note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fmills89/express-note-taker/issues"
+  },
+  "homepage": "https://github.com/fmills89/express-note-taker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "uniqid": "^5.4.0"
   }
 }
