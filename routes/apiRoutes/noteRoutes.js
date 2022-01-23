@@ -9,10 +9,20 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
-    req.body.id = uniqid();
+    req.body.id = uniqid()
 
     const note = createNewNote(req.body, notes);
     res.json(note);
+});
+
+router.delete('/notes/:id', (req, res) => {
+    console.log(req.params.id);
+    const remove = req.params.id;
+
+    if (remove === -1) return res.status(404).json({})
+
+    notes.splice(remove, 1)
+    res.json(notes)
 });
 
 module.exports = router;
