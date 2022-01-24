@@ -19,6 +19,7 @@ Start taking your notes <a href="https://ancient-retreat-03510.herokuapp.com/">h
 
 ## Installation
 - Git clone repo
+- Run npm init
 - Run node server.js
 
 ## Usages
