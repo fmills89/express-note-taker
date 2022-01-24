@@ -4,7 +4,10 @@
 Help yourself stay on track and remember what you need to take care of with Express Note Taker. </br>
 This note app will keep help you stay on task and remind you of whats important.
 
+Start taking your notes <a href="https://ancient-retreat-03510.herokuapp.com/">here.</a>
+
 ![Note Taker (1)](https://user-images.githubusercontent.com/89666151/150703206-c53081df-bf97-4de3-b09a-ddae59170334.gif)
+
 
 ## Built Using
 - Javascript
